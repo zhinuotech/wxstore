@@ -1,0 +1,36 @@
+{
+    "name": "wxstore",
+    "description": "微信小商店组件后台API",
+    "type": "think-extend",
+    "keywords": [
+        "wechat",
+        "微信",
+        "交易组件",
+        "商业能力",
+        "小程序"
+    ],
+    "extra": {
+        "think-config": {
+            "weshop": "config/weshop.php"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "overtrue/wechat": "~4.0",
+        "ext-ctype": "*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "znsoft",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "sffi\\weshop\\": "src"
+        }
+    }
+}
