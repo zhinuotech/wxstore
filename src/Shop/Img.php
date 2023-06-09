@@ -1,8 +1,8 @@
 <?php
 
-namespace sffi\weshop\Shop;
+namespace zntech\weshop\Shop;
 
-use sffi\weshop\Base;
+use zntech\weshop\Base;
 
 
 /**

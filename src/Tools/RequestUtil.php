@@ -1,7 +1,7 @@
 <?php
 
 
-namespace sffi\weshop\Tools;
+namespace zntech\weshop\Tools;
 
 
 

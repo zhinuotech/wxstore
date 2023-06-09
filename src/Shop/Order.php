@@ -1,9 +1,9 @@
 <?php
 
-namespace sffi\weshop\Shop;
+namespace zntech\weshop\Shop;
 
-use sffi\weshop\Base;
-use \sffi\weshop\Shop\Entity\Order as OrderEntity;
+use zntech\weshop\Base;
+use \zntech\weshop\Shop\Entity\Order as OrderEntity;
 
 /**
  * @method reqAdd(OrderEntity $order) 下单

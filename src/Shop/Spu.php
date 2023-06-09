@@ -1,11 +1,11 @@
 <?php
 
-namespace sffi\weshop\Shop;
+namespace zntech\weshop\Shop;
 
-use sffi\weshop\Base;
-use sffi\weshop\Shop\Entity\DescInfo;
-use sffi\weshop\Shop\Entity\ProductInfo;
-use sffi\weshop\Shop\Entity\Sku;
+use zntech\weshop\Base;
+use zntech\weshop\Shop\Entity\DescInfo;
+use zntech\weshop\Shop\Entity\ProductInfo;
+use zntech\weshop\Shop\Entity\Sku;
 
 /**
  * @method reqAdd(ProductInfo $info) 新增商品

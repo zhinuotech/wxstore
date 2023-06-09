@@ -1,5 +1,5 @@
 <?php
-namespace sffi\weshop\Shop\Entity;
+namespace zntech\weshop\Shop\Entity;
 
 class ProductInfo extends Entity
 {

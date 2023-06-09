@@ -30,7 +30,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "sffi\\weshop\\": "src"
+            "zntech\\weshop\\": "src"
         }
     }
 }

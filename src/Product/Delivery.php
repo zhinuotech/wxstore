@@ -1,6 +1,6 @@
 <?php
 
-namespace sffi\weshop\Product;
+namespace zntech\weshop\Product;
 
 class Delivery
 {

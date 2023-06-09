@@ -1,25 +1,25 @@
 <?php
 
-namespace sffi\weshop;
+namespace zntech\weshop;
 
 use Exception;
-use sffi\weshop\Product\Brand;
-use sffi\weshop\Product\Category;
-use sffi\weshop\Product\Coupon;
-use sffi\weshop\Product\Delivery;
-use sffi\weshop\Product\Order as pOrder;
-use \sffi\weshop\Product\Img as pImg;
-use \sffi\weshop\Product\Spu as pSpu;
-use sffi\weshop\Product\Sku;
-use sffi\weshop\Product\Store;
+use zntech\weshop\Product\Brand;
+use zntech\weshop\Product\Category;
+use zntech\weshop\Product\Coupon;
+use zntech\weshop\Product\Delivery;
+use zntech\weshop\Product\Order as pOrder;
+use \zntech\weshop\Product\Img as pImg;
+use \zntech\weshop\Product\Spu as pSpu;
+use zntech\weshop\Product\Sku;
+use zntech\weshop\Product\Store;
 
-use sffi\weshop\Shop\Account;
-use sffi\weshop\Shop\Audit;
-use sffi\weshop\Shop\Cat;
-use sffi\weshop\Shop\Img;
-use sffi\weshop\Shop\Order;
-use sffi\weshop\Shop\Register;
-use sffi\weshop\Shop\Spu;
+use zntech\weshop\Shop\Account;
+use zntech\weshop\Shop\Audit;
+use zntech\weshop\Shop\Cat;
+use zntech\weshop\Shop\Img;
+use zntech\weshop\Shop\Order;
+use zntech\weshop\Shop\Register;
+use zntech\weshop\Shop\Spu;
 
 /**
  * @method static Brand product_brand($config=[])
@@ -46,7 +46,7 @@ class Factory
     protected static function make($name,$args)
     {
         list($dir, $class) = explode('_', $name);
-        $className = 'sffi\weshop\\'.ucfirst($dir).'\\'.ucfirst($class);
+        $className = 'zntech\weshop\\'.ucfirst($dir).'\\'.ucfirst($class);
         if (class_exists($className)) {
             return new $className(...$args);
         }

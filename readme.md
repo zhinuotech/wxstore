@@ -7,7 +7,7 @@
 require 'vendor\autoload.php';
 $config = require 'config\weshop.php';  #引用配置文件
 
-$brand = \sffi\weshop\Factory::product_brand($config);
+$brand = \zntech\weshop\Factory::product_brand($config);
 $res = $brand->reqGet();
 var_dump($res); //本处输出品牌信息
 ```
@@ -20,7 +20,7 @@ var_dump($res); //本处输出品牌信息
 require 'vendor\autoload.php';
 $config = require 'config\weshop.php';
 
-$sss = \sffi\weshop\Factory::shop_account($config);
+$sss = \zntech\weshop\Factory::shop_account($config);
 $res = $sss->reqGetBrandList();
 var_dump($res);  //本处输出品牌信息
 ```

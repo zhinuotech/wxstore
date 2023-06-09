@@ -1,7 +1,7 @@
 <?php
 
-namespace sffi\weshop\Product;
-use sffi\weshop\Base;
+namespace zntech\weshop\Product;
+use zntech\weshop\Base;
 
 /**
  * @method reqGetShopcat()

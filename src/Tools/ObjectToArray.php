@@ -1,8 +1,8 @@
 <?php
 
-namespace sffi\weshop\Tools;
+namespace zntech\weshop\Tools;
 
-use sffi\weshop\Shop\Entity\Entity;
+use zntech\weshop\Shop\Entity\Entity;
 
 class ObjectToArray
 {

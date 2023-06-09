@@ -1,13 +1,13 @@
 <?php
 
-namespace sffi\weshop;
+namespace zntech\weshop;
 
 use EasyWeChat\MiniProgram\Application;
 use Exception;
-use sffi\weshop\Shop\Entity\Entity;
-use sffi\weshop\Tools\ObjectToArray;
-use sffi\weshop\Tools\RequestUtil;
-use sffi\weshop\Tools\Str;
+use zntech\weshop\Shop\Entity\Entity;
+use zntech\weshop\Tools\ObjectToArray;
+use zntech\weshop\Tools\RequestUtil;
+use zntech\weshop\Tools\Str;
 
 class Base
 {

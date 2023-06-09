@@ -1,10 +1,10 @@
 <?php
 
-namespace sffi\weshop\Shop;
+namespace zntech\weshop\Shop;
 
-use sffi\weshop\Base;
-use sffi\weshop\Shop\Entity\BrandInfo;
-use sffi\weshop\Shop\Entity\CategoryInfo;
+use zntech\weshop\Base;
+use zntech\weshop\Shop\Entity\BrandInfo;
+use zntech\weshop\Shop\Entity\CategoryInfo;
 
 /**
  * @method reqAuditBrand($license, $bradInfo)       品牌审核

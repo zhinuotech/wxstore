@@ -1,13 +1,13 @@
 <?php
 
-namespace sffi\weshop\Shop;
+namespace zntech\weshop\Shop;
 
-use sffi\weshop\Base;
-use \sffi\weshop\Shop\Entity\Delivery as DeliveryEntity;
+use zntech\weshop\Base;
+use \zntech\weshop\Shop\Entity\Delivery as DeliveryEntity;
 
 /**
  * @method reqGetCompanyList() 获取快递公司列表
- * @method reqSend($orderId, $openId,bool $isFinish,array $deliveryList) 发货 $deliveryList是类\sffi\weshop\Shop\Entity\Delivery实例
+ * @method reqSend($orderId, $openId,bool $isFinish,array $deliveryList) 发货 $deliveryList是类\zntech\weshop\Shop\Entity\Delivery实例
  * @method reqRecieve()
  */
 class Delivery extends Base
