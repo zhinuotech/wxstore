@@ -1,5 +1,5 @@
 {
-    "name": "wxstore",
+    "name": "zhinuotech/wxstore",
     "description": "微信小商店组件后台API",
     "type": "think-extend",
     "keywords": [
